@@ -12,7 +12,9 @@
 
 - pdc : pseudo code C (very ugly)
 
-- pdd : decompile function 
+- pdd : decompile with r2dec plugin
+
+- pdg : decompile with r2ghidra plugin 
 
 - s [function] : move to function
 
@@ -27,6 +29,10 @@
 - Vpp : visual debugger mode
 
 - < : gives string to stdin 
+
+- afvs/b/r : show variable from esp/ebp/registers
+
+- afvn [new name] [old name] : rename variables
 
 ## Visual mode
 
@@ -51,3 +57,9 @@
 - rabin2 -z : strings in .data section
 
 - rax2 : convert to hexa (or the opposite)
+
+- r2pm : package manager
+
+- r2pm -U[U] : update [and upgrade] packages
+
+- r2pm -ci : clean install package
