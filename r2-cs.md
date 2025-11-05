@@ -34,6 +34,14 @@
 
 - afvn [new name] [old name] : rename variables
 
+- afn [name] : rename funciton at address
+
+- af+ [addr] [name] : create a function at addr
+
+- afl : list functions
+
+- afb+ : create new code block
+
 ## Visual mode
 
 - q : quit
