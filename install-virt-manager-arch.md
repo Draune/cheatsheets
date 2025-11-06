@@ -11,6 +11,17 @@ sudo virsh net-autostart default
 sudo virsh net-start default
 ```
 
-## References
+# Additionals thing to install in the VM
+
+Install spice-vdagent inside the VM to get the VM to autoresize to the size of the window and reboot the VM (for QEMU/KVM).
+
+```bash
+# for ubuntu and debian
+sudo apt install spice-vdagent
+```
+
+# References
 
 https://discovery.endeavouros.com/applications/how-to-install-virt-manager-complete-edition/2021/09/
+
+https://docs.remnux.org/install-distro/get-virtual-appliance#hypervisor-requirements
