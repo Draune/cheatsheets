@@ -3,7 +3,7 @@
 I wrote this to remember how to install fully virt-manager on Arch Linux, because there are extra steps than just downloading the packages.
 
 ```bash
-sudo pacman -Syu --needed virt-manager qemu-desktop libvirt edk2-ovmf dnsmasq vde2 bridge-utils iptables-nft dmidecode
+sudo pacman -Syu --needed virt-manager qemu-desktop qemu-full libvirt edk2-ovmf dnsmasq vde2 bridge-utils iptables-nft dmidecode 
 # to be able to connect to QEMU/KVM from virt-manager
 sudo systemctl enable --now libvirtd.service
 # to get NAT working
