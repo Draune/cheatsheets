@@ -6,6 +6,7 @@ I wrote this to remember how to install fully virt-manager on Arch Linux, becaus
 sudo pacman -Syu --needed virt-manager qemu-desktop qemu-full libvirt edk2-ovmf dnsmasq vde2 bridge-utils iptables-nft dmidecode 
 # to be able to connect to QEMU/KVM from virt-manager
 sudo systemctl enable --now libvirtd.service
+sudo usermod -aG libvirt $USER
 # to get NAT working
 sudo virsh net-autostart default
 sudo virsh net-start default
