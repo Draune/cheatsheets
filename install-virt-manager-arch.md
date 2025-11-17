@@ -19,6 +19,7 @@ Install spice-vdagent inside the VM to get the VM to autoresize to the size of t
 ```bash
 # for ubuntu and debian
 sudo apt install spice-vdagent
+# after installing it, you just need to reboot the machine and select auto-resize VM in the "View" submenu of Virt-manager
 ```
 
 # References
