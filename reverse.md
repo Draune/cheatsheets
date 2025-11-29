@@ -55,7 +55,10 @@ TODO: VM android + frida +? r2frida
 
 ## Godo
 
-Static analysis: GDRE (just search "godo reverse")
+Static analysis: 
+
+- GDRE (just search "godo reverse")
+- godot-unpacker.py (repo github with a .py script that will unpack everything in the godot binary)
 
 Dynamic analysis: use Cheat Engine (will probably be game hacking)
 
